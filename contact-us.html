@@ -300,7 +300,7 @@
                 data-aos-duration="1200"
               >
                 <div class="contact-form-area">
-                  <form class="contact-form">
+                  <form class="contact-form" id="contact-form" method="POST" action="mail.php">
                     <div class="row justify-content-center mb-20-none">
                       <div class="col-xl-6 col-lg-6 form-group">
                         <label class="icon"
@@ -340,7 +340,7 @@
                       </div>
                       <div class="col-xl-6 col-lg-6 form-group">
                         <div class="contact-select">
-                          <select class="form--control">
+                          <select class="form--control" name="selected">
                             <option value="1">Subject</option>
                             <option value="2">Subject one</option>
                             <option value="3">Subject two</option>
@@ -353,12 +353,14 @@
                           class="form--control"
                           placeholder="Message"
                           required
+                          name="message"
                         ></textarea>
                       </div>
                       <div class="col-lg-12 form-group">
-                        <button type="submit" class="btn--base mt-10">
+                        <button type="submit" class="btn--base mt-10" id="contact-button">
                           Submit Now <i class="icon-Group-2361 ml-2"></i>
                         </button>
+                        <div class="ajax-response"></div>
                       </div>
                     </div>
                   </form>
@@ -487,6 +489,7 @@
     <script src="assets/js/aos.js"></script>
     <!-- nice select js -->
     <script src="assets/js/jquery.nice-select.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
     <!-- main -->
     <script src="assets/js/main.js"></script>
   </body>
