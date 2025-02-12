@@ -10,7 +10,7 @@ live - http://charterskyline.com/
 Requirements:
 Company Name
 Company Profile (Brief description of the company)
-Services/Products
+Services/Products with prices list(if any)
 Team Members (Including photos, if available)
 Client Testimonials (With client photos, if available)
 Social Media Links (Facebook, YouTube, X, Instagram, etc.)
