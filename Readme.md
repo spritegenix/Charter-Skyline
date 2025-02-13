@@ -9,6 +9,7 @@ live - http://charterskyline.com/
 
 Requirements:
 Company Name
+logo
 Company Profile (Brief description of the company)
 Services/Products with prices list(if any)
 Team Members (Including photos, if available)
